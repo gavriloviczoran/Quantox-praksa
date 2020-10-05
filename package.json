@@ -1,0 +1,19 @@
+{
+  "name": "quantox-praksa",
+  "version": "1.0.0",
+  "description": "Koristimo GitHub - kačimo svoje zadatke. Ivan Radeljić ostavlja komentare, a mi između sebe sarađujemo, tj. da predložite izmene ili da povučete kod od kolege ako imate problem da setujete novi projekat.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavriloviczoran/Quantox-praksa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gavriloviczoran/Quantox-praksa/issues"
+  },
+  "homepage": "https://github.com/gavriloviczoran/Quantox-praksa#readme"
+}

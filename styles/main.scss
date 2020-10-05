@@ -1,6 +1,13 @@
 ﻿$mainFont: Arial, sans-serif;
 $secondaryFont: Verdana;
-
+$topLeft: #000066;
+$middleColor: #38fcf7;
+$bottomRight: white;
+$headingColor: #1a75ff;
+$inputColor: black;
+$borderColor: #ccc;
+$submitColor: #F08080;
+$attentionColor: red;
 
 * {
   margin: 0;
@@ -9,7 +16,7 @@ $secondaryFont: Verdana;
 }
 
 body {
-  background: linear-gradient(160deg, #000066 25%, #38fcf7 75%, white 100%);
+  background: linear-gradient(160deg, $topLeft 25%, $middleColor 75%, $bottomRight 100%);
   background-attachment: fixed;
 }
 
@@ -28,7 +35,7 @@ header {
 }
 
 header p {
-  color: white;
+  color: $bottomRight;
   margin-left: auto;
 }
 
@@ -39,12 +46,12 @@ section {
 }
 
 section h1 {
-  color: white;
+  color: $bottomRight;
   font-family: $mainFont;
 }
 
 section h2 {
-  color: #1a75ff;
+  color: $headingColor;
   font-family: $mainFont;
 }
 
@@ -58,7 +65,7 @@ aside {
   width: 80%;
   height: 90%;
   margin: 0 auto;
-  background-color: white;
+  background-color: $bottomRight;
   border-radius: 1.5%;
   padding: 2rem;
   font-size: 1rem;
@@ -70,31 +77,31 @@ aside h1 {
 
 input[type=text], select {
   font-family: $secondaryFont;
-  color: black;
+  color: $inputColor;
   border-radius: 4px;
   width: 100%;
   padding: 5px 10px;
   border: none;
-  border-bottom: 1px solid #ccc;
-  background-color: white;
+  border-bottom: 1px solid $borderColor;
+  background-color: $bottomRight;
 }
 
 input[type=text]:focus, select:focus {
   font-family: $secondaryFont;
-  color: black;
+  color: $inputColor;
   border-radius: 4px;
-  outline: 1px solid #ccc;
+  outline: 1px solid $borderColor;
 }
 
 input[type=submit] {
   font-family: $secondaryFont;
-  color: black;
+  color: $inputColor;
   border-radius: 4px;
   margin: 1rem auto;
   display: block;
   width: 60%;
-  background-color: #F08080;
-  color: white;
+  background-color: $submitColor;
+  color: $bottomRight;
   padding: 10px 15px;
   border: none;
   cursor: pointer;
@@ -102,10 +109,10 @@ input[type=submit] {
 
 label {
   font-family: $secondaryFont;
-  color: black;
+  color: $inputColor;
   border-radius: 4px;
 }
 
 span {
-  color: red;
+  color: $attentionColor;
 }
