@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/gavriloviczoran/Quantox-praksa/issues"
   },
-  "homepage": "https://github.com/gavriloviczoran/Quantox-praksa#readme"
+  "homepage": "https://github.com/gavriloviczoran/Quantox-praksa#readme",
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
 }
