@@ -6,10 +6,9 @@ module.exports = {
   mode: 'development',    
 
   devServer: {
-    contentBase: './dist',
-    stats: {
-      logging: 'warn'  // Value 'warn' tells stats to log errors and warnings only.
-    },
+    port: 8000,
+    contentBase: path.join(__dirname, 'dist'),
+    clientLogLevel: 'warn',
     hot: true,
   },    
 
@@ -19,6 +18,19 @@ module.exports = {
 
   module: {
     rules: [
+      {
+        module: {
+          rules: [
+            {
+              test: /\.m?js$/,
+              exclude: /node_modules/,
+              use: {
+                loader: "babel-loader",
+              }
+            }
+          ]
+        }
+      },
       {
         test: /\.s[ac]ss$/i,
         use: [
