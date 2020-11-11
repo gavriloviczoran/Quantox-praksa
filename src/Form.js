@@ -1,35 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
+import React, { Component } from 'react';
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/main.css">   
-    <title>Quantox-praksa 1. zadatak</title>
-</head>
 
-<body>
-    <main>
-        <!-- <header>
-            <img src="images/logo.png" alt="logo">
-            <p>(888) 510-2370</p>
-        </header> -->
 
-        <aside>
 
-            <h1>Request a demo</h1>                
-        <!--     <form> 
+class Form extends React.Component {
+    render() {
+        return (
+            <form> 
                 <label for="UserName">FIRST NAME:  <span>*</span></label>
-                <input type="text" id="UserName" name="UserName" required>
+                <input type="text" id="UserName" name="UserName" required/>
 
                 <label for="UserLastName">LAST NAME:  <span>*</span></label>
-                <input type="text" id="UserLastName" name="UserLastName" required>
+                <input type="text" id="UserLastName" name="UserLastName" required/>
 
                 <label for="email">WORK EMAIL:  <span>*</span></label>
-                <input type="text" id="email" name="email" required>
+                <input type="text" id="email" name="email" required/>
 
                 <label for="Company">COMPANY:  <span>*</span></label>
-                <input type="text" id="Company" name="Company" required>
+                <input type="text" id="Company" name="Company" required/>
 
                 <label for="Companysize">COMPANY SIZE:  <span>*</span></label>
                   <select name="Companysize" required>
@@ -43,13 +31,13 @@
                   </select>
 
                 <label for="PhoneNumber">PHONE NUMBER:  <span>*</span></label>
-                <input type="text" id="PhoneNumber" name="PhoneNumber" required>
+                <input type="text" id="PhoneNumber" name="PhoneNumber" required/>
 
-                <input type="submit" value="SUBMIT">
-            </form> -->
+                <input type="submit" value="SUBMIT"/>
+            </form>
+        );
+    }
+}
 
-        </aside>
-    </main>
-</body>
 
-</html>
+export default Form;
