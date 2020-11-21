@@ -5,3 +5,4 @@ Koristimo GitHub - kačimo svoje zadatke. Ivan Radeljić ostavlja komentare, a m
 Web development internship project at Quantox Technology company, Belgrade RS.
 
 Mentoring by Ivan Radeljic.
+
