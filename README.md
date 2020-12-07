@@ -14,10 +14,3 @@ Mentorstvo je proces razmene znanja, perspektiva, iskustava i kontakata, podršk
 Kako bi se tokom mentorsko odnosa postigao cilj i ostvario rezultat, neophodni su iskrenost, otvorenost i poverenje.
 "Moć ne dolazi od znanja zadržanog za sebe, već od njegovog deljenja."
 
-
-
-
-
-
-
-
