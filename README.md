@@ -1,4 +1,4 @@
-# Quantox-praksa (Septembar 2020.) Online
+# Quantox-praksa (Septembar 2020. do 21.12.2020.) Online
 
 
 
