@@ -15,9 +15,3 @@ Kako bi se tokom mentorsko odnosa postigao cilj i ostvario rezultat, neophodni s
 "Moć ne dolazi od znanja zadržanog za sebe, već od njegovog deljenja."
 
 
-
-
-
-
-
-
