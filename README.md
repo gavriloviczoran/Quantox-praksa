@@ -20,8 +20,3 @@ Kako bi se tokom mentorsko odnosa postigao cilj i ostvario rezultat, neophodni s
 
 
 
-
-
-
-
-
